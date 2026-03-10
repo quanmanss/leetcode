@@ -1,3 +1,10 @@
+#idea: Tính tổng k phần tử đầu tiên, gán maxSum = sum (không bị sai trường hợp tất cả số trong mảng đều âm) rồi trượt
+# và cập nhật. 
+#Compute the sum of the first k elements, then slide the window by
+#removing nums[i-k] and adding nums[i]. Update maxSum each step.
+#Time: O(n)
+#Space: O(1)
+
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
