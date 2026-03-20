@@ -1,3 +1,5 @@
+#Time: O(nlogn)
+#Space: O(logn)
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
